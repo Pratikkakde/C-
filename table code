@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+  for (int i=3; i<=30; i=i+3 )
+  {
+  cout << i <<" ";
+  cout<<endl;
+  }
+   
+
+   return 0;
+}
+
+
+output:
+3 
+6 
+9 
+12 
+15 
+18 
+21 
+24 
+27 
+30
