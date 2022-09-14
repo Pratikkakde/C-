@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+   int a;
+   cout<<"enter the value of a" <<endl;
+   cin>>a;
+   if(a<10){
+       cout<<"a is smaller than 10";
+   }
+   else {
+       cout<<"a is greater than 10";
+   }
+    return 0;
+}
+
+
+output:
+enter the value of a
+15
+a is greater than 10
