@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+   int a;
+   int b;
+   cout<<"enter the value of a" <<endl;
+   cin>>a;
+   cout<<"enter the value of b" <<endl;
+   cin>>b;
+   if(a>5 && b>3){
+       cout<<"shiva will pay a sum of 1000";
+   }
+   else if(a>5 || b>3) {
+       cout<<"shiva will pay a sum of 500";
+   }
+   else {
+       cout<<"i will pay shiva 500";
+   }
+    return 0;
+}
+
+
+output:
+enter the value of a
+2
+enter the value of b
+2
+i will pay shiva 500
