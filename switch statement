@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+ int s;
+ cout<<"s";
+ cin>>s;
+ switch (s)
+ {
+     case 1:
+     {
+         cout<<"Shiva will give 10"<<endl;
+         break;
+     }
+     case 2:
+     {
+         cout<<"Shiva will give 20"<<endl;
+         break;
+     }
+     case 3:
+     {
+         cout<<"Shiva will give 30"<<endl;
+         break;
+     }
+     case 4:
+     {
+         cout<<"Shiva will give 40"<<endl;
+         break;
+     }
+     default:
+     {
+        cout<<"Shiva will give 100"<<endl;
+        break;
+     }
+         
+ }
+
+    return 0;
+}
