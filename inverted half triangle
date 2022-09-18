@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int m;
+    cout<<"please enter the value";
+    cin>>m;
+    for(int c=0;c<m;c++)
+    {
+        for(int r=0;r<m-c-1;r++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+
+
+output:
+please enter the value6
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
