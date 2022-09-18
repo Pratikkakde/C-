@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int m=5;
+    int n=5;
+    for(int c=1;c<=m;c++)
+    {
+        for(int r=1;r<=c;r++)
+        {
+            cout<< c <<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+
+outoput:
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
