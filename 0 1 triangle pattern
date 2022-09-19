@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+ int m=5;
+ for(int c=0;c<=m;c++)
+ {
+     for(int r=0;r<=c;r++)
+     {
+         if((c+r)%2==0)
+         cout<<"1 ";
+         else
+         cout<<"0 ";
+     }
+     cout<<endl;
+ }
+
+    return 0;
+}
+
+
+
+
+output:
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1 
+0 1 0 1 0 1 
