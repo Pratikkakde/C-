@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int n=5;
+    for(int c=1;c<=n;c++)
+    {
+        for(int r=1;r<=c;r++)
+        cout<<"* ";
+        int space=2*n-2*c;
+        for(int r=1;r<=space;r++)
+        cout<<"  ";
+        for(int r=1;r<=c;r++)
+        cout<<"* ";
+        cout<<endl;
+        }
+    return 0;
