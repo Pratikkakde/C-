@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class animal
+{
+    public:
+    int legs, ears, tail;
+    
+};
+class herbivorous:public animal
+{
+    public:
+void print()
+{
+    cout<<"cow have legs "<<legs<<endl;
+    cout<<"cow have ears "<<ears<<endl;
+    cout<<"cow have tail "<<tail<<endl;
+    
+}
+};
+int main()
+{
+    herbivorous cow;
+    cow.legs=4;
+    cow.ears=2;
+    cow.tail=1;
+    cow.print();
+}
+
+
+output:
+cow have legs 4
+cow have ears 2
+cow have tail 1
