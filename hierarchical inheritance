@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+class animal
+{
+  public:
+  int legs,ears,tail;
+};
+class herbivorous:public animal
+{
+  public:
+  string eat;
+  void print()
+  {
+      cout<<"what are the eat "<<eat<<endl;
+      cout<<"the number of legs are  "<<legs<<endl;
+      cout<<"the number of ears are  "<<ears<<endl;
+      cout<<"the number of tail are  "<<tail<<endl;
+  }
+};
+class carnivorous:public animal
+{
+  public:
+  string eat;
+  void print()
+  {
+      cout<<"what are the eat "<<eat<<endl;
+      cout<<"the number of legs are  "<<legs<<endl;
+      cout<<"the number of ears are  "<<ears<<endl;
+      cout<<"the number of tail are  "<<tail<<endl;
+  }
+};
+int main()
+{
+    herbivorous cow;
+    cow.legs=4;
+    cow.ears=2;
+    cow.tail=1;
+    cow.eat="grass";
+    cow.print();
+    carnivorous tiger;
+    tiger.legs=6;
+    tiger.ears=3;
+    tiger.tail=2;
+    tiger.eat="flesh";
+    tiger.print();
+}
+
+
+
+
+output:
+what are the eat grass
+the number of legs are  4
+the number of ears are  2
+the number of tail are  1
+what are the eat flesh
+the number of legs are  6
+the number of ears are  3
+the number of tail are  2
