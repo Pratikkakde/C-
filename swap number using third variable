@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+int a=5;
+int b=7;
+int c;
+cout<<"Before swapping"<<" "<<'a'<<a<<" "<<'b'<<b<<endl;
+c=a;
+a=b;
+b=c;
+
+cout<<"After swapping"<<" "<<'a'<<a<<" "<<'b'<<b;
+    return 0;
+}
+
+output:
+Before swapping a5 b7
+After swapping a7 b5
